@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 html,body{
-    height: 100%;
     width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+    
+    
 }
 /* HEADER*/
 
 
 .navigation {
-   padding:0;
+  
    margin:0 ;
    width:100vw;
-   background-color: snow;
-   padding: 2em 2em 5em 0em;
+   background-color:  peachpuff;
+   padding: 3rem 4rem 3rem 1rem; 
+   
 
 }
 
@@ -28,9 +34,10 @@ html,body{
     list-style: none;
     text-decoration: none;
     display: flex;
+    justify-content: center; 
     margin: auto;
-     padding-top: 40px;
-     text-align: center !important; 
+    padding-top: 40px;
+     
     
 }
 .list-item-inline{
@@ -45,7 +52,7 @@ html,body{
 }
 
  .btn{
-    background-color: snow;
+    background-color:  peachpuff;
     border-radius: 1em;
     border: 2px solid blue;
     padding: 1rem;
@@ -75,26 +82,31 @@ a:hover{
  font-size: large;
 }
 
+img {
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
 .flip-card {
-    background-color: transparent;
-    width: 50%;
-    margin: auto;
-    height: 400px;
-    perspective: 1000px; /*Remove this if you don't want the 3D effect */
-    padding: 30px 30px 200px 30px;
-    font-family: 'Fredoka One', cursive;
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
+  background-color: transparent;
+  width: 80%;
+  margin: auto;
+  height: 400px;
+  perspective: 1000px; /*Remove this if you don't want the 3D effect */
+  padding: 30px 30px 200px 30px;
+  font-family: 'Fredoka One', cursive;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
@@ -117,7 +129,7 @@ a:hover{
   
   /* Style the back side */
   .flip-card-back {
-    background-color: snow;
+    background-color:  peachpuff;
     color: black;
     transform: rotateY(180deg);
   }
@@ -147,8 +159,9 @@ a:hover{
     padding:0;
     margin:0 ;
     width:100vw;
-    background-color: snow;
-    padding: 2em 2em 5em 0em;
+    background-color: peachpuff;
+    padding: 2em 4em 3em 1em;
+  
     position: absolute;
  
    }
@@ -161,7 +174,7 @@ a:hover{
       
   }
   .list-item-footer-inline{
-
+    
     text-decoration: none;
     padding: 2rem;
     font-family: 'Ubuntu', sans-serif;
@@ -170,17 +183,23 @@ a:hover{
   }
 
   .foot-no-bullet{
-    float: left;
+    
     list-style: none;
     text-decoration: none;
     display: flex;
-    padding-left: 50px; 
+    justify-content: center;
+    padding-top: 50px; 
     
   }
 
   /*media queries */
 
-  @media screen and (min-width:300px){
+  @media screen and (max-width:500px){
+
+    .flip-card-inner {
+      
+      width: 100%;
+    }
   
     /* FOOTER */
    .foot-no-bullet{
@@ -204,7 +223,7 @@ a:hover{
     }
   /* projects */
   .projects{
-    
+    text-align: center;
     width: 40%;
     height: 90%;
     margin: auto;
@@ -212,6 +231,7 @@ a:hover{
     font-family: 'Fredoka One', cursive;
     font-size:large;
     padding: 100px;
+    font-size: small;
     
 
 }
