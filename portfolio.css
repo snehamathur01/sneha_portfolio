@@ -20,6 +20,7 @@ html,body{
     padding-left: 3em;
     font-family: 'Fredoka One', cursive;
     font-size: xx-large;
+    text-align: center !important; 
     
 }
 
@@ -27,8 +28,9 @@ html,body{
     list-style: none;
     text-decoration: none;
     display: flex;
-    float: right;
-    padding-right: 10%;
+    margin: auto;
+     padding-top: 40px;
+     text-align: center !important; 
     
 }
 .list-item-inline{
@@ -36,12 +38,13 @@ html,body{
     text-decoration: none;
     padding: 2rem;
     font-family: 'Ubuntu', sans-serif;
-    font-size: large;
+    font-size: x-large;
     color: dodgerblue;
+    
     
 }
 
-.btn{
+ .btn{
     background-color: snow;
     border-radius: 1em;
     border: 2px solid blue;
@@ -122,12 +125,14 @@ a:hover{
   /*project */
   .no-bullet-project {
     list-style: none;
+    text-align: center;
     
 }
   .projects{
       background-color: dodgerblue;
       width: 40%;
       height: 90%;
+      text-align: center;
       margin: auto;
       border-radius: 2em;
       font-family: 'Fredoka One', cursive;
@@ -155,6 +160,14 @@ a:hover{
       
       
   }
+  .list-item-footer-inline{
+
+    text-decoration: none;
+    padding: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
+    color: dodgerblue;
+  }
 
   .foot-no-bullet{
     float: left;
@@ -164,3 +177,48 @@ a:hover{
     padding-left: 50px; 
     
   }
+
+  /*media queries */
+
+  @media screen and (max-width:481px){
+    /* FOOTER */
+   .foot-no-bullet{
+    font-size: xx-large;
+    display: inline;
+    text-align: center;
+    
+   }
+   .list-item-inline{
+    padding-left: 2em;
+    font-size: small;
+   }
+    
+  /*links */
+  .list-item-footer-inline{
+    margin: 0px;
+    width: 100%;
+    float: left;
+    font-size: xx-large;
+  
+    }
+  /* projects */
+  .projects{
+    
+    width: 40%;
+    height: 90%;
+    margin: auto;
+    border-radius: 2em;
+    font-family: 'Fredoka One', cursive;
+    font-size:large;
+    padding: 100px;
+    
+
+}
+}
+
+
+
+  
+ 
+
+  
