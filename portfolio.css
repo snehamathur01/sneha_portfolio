@@ -180,7 +180,8 @@ a:hover{
 
   /*media queries */
 
-  @media screen and (max-width:481px){
+  @media screen and (min-width:300px){
+  
     /* FOOTER */
    .foot-no-bullet{
     font-size: xx-large;
@@ -189,7 +190,7 @@ a:hover{
     
    }
    .list-item-inline{
-    padding-left: 2em;
+    padding-left: 1em; 
     font-size: small;
    }
     
