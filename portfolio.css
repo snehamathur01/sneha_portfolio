@@ -6,8 +6,6 @@ html,body{
     padding: 0px;
     margin: 0px;
     
-    
-    
 }
 /* HEADER*/
 
@@ -15,15 +13,16 @@ html,body{
 .navigation {
   
    margin:0 ;
-   width:100vw;
+   width: 100%;
    background-color:  peachpuff;
-   padding: 3rem 4rem 3rem 1rem; 
+   padding: 3rem 0rem 3rem 0rem; 
+  
    
 
 }
 
 .nav-brand{
-    padding-left: 3em;
+    padding-left: 0;
     font-family: 'Fredoka One', cursive;
     font-size: xx-large;
     text-align: center !important; 
@@ -32,11 +31,12 @@ html,body{
 
 .no-bullet {
     list-style: none;
+    margin: auto;
     text-decoration: none;
     display: flex;
-    justify-content: center; 
-    margin: auto;
+    justify-content:center; 
     padding-top: 40px;
+    padding-inline-start: 0;
      
     
 }
@@ -158,9 +158,9 @@ img {
    .footer-bar{
     padding:0;
     margin:0 ;
-    width:100vw;
+    width:100%;
     background-color: peachpuff;
-    padding: 2em 4em 3em 1em;
+    padding: 2em 0em 3em 0em;
   
     position: absolute;
  
@@ -176,7 +176,7 @@ img {
   .list-item-footer-inline{
     
     text-decoration: none;
-    padding: 2rem;
+    padding: 2rem 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: x-large;
     color: dodgerblue;
@@ -191,10 +191,12 @@ img {
     padding-top: 50px; 
     
   }
-
+ .footer-list{
+   padding: 1em;
+ }
   /*media queries */
 
-  @media screen and (max-width:500px){
+  @media screen and (max-width:640px){
 
     .flip-card-inner {
       
