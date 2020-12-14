@@ -233,11 +233,17 @@ img {
     margin: auto;
     border-radius: 2em;
     font-family: 'Fredoka One', cursive;
-    font-size:large;
+    font-size:x-large;
     padding: 100px;
     font-size: small;
     
 
+}
+
+h2{
+  padding-top:20px ;
+  padding-bottom: 10px;
+  font-size: large;
 }
 }
 
