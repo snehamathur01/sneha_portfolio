@@ -240,10 +240,14 @@ img {
 
 }
 
+p{
+  text-align: left;
+}
+
 h2{
   padding-top:20px ;
   padding-bottom: 10px;
-  font-size: large;
+  font-size: x-large;
 }
 }
 
