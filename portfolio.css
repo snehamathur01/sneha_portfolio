@@ -8,7 +8,7 @@ html,body{
     
 }
 :root{
-  --primary-color:#13274F;
+  --primary-color:#00308F;
   --secondary-color:dodgerblue;
 
 }
@@ -51,7 +51,7 @@ html,body{
     padding: 2rem;
     font-family: 'Ubuntu', sans-serif;
     font-size: x-large;
-    color: dodgerblue;
+    color: #87CEFA;
     
     
 }
@@ -173,7 +173,7 @@ img {
     text-align: center !important;
       font-family: 'Fredoka One', cursive;
       font-size: xx-large;
-      color: dodgerblue;
+      color: #87CEFA;
       
       
   }
@@ -183,7 +183,7 @@ img {
     padding: 2rem 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: x-large;
-    color: dodgerblue;
+    color: #87CEFA;
   }
 
   .foot-no-bullet{
