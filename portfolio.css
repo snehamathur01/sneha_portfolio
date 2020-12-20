@@ -8,8 +8,8 @@ html,body{
     
 }
 :root{
-  --primary-color:#00308F;
-  --secondary-color:dodgerblue;
+  --primary-color:#59bd99;
+  --secondary-color:#6b574e;
 
 }
 /* HEADER*/
@@ -19,7 +19,7 @@ html,body{
   
    margin:0 ;
    width: 100%;
-   background-color: var(--primary-color);
+   background-color: var(--secondary-color);
    padding: 3rem 0rem 3rem 0rem; 
   
    
@@ -146,7 +146,7 @@ img {
     
 }
   .projects{
-      background-color: var(--secondary-color);
+      background-color: var(--primary-color);
       
       
       margin: auto;
@@ -163,7 +163,7 @@ img {
     padding:0;
     margin:0 ;
     width:100%;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: 2em 0em 3em 0em;
   
     position: absolute;
