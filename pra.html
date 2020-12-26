@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<style>
+	.body{
+		width: 50%;
+
+	}
+
+	.class1{
+		font-size: 20px;
+	}
+
+   .class2{
+   	font-size: 50px;
+   }
+</style>
+
+<body>
+<div id="one" class="class1">HELLO</div><br />
+<button onClick="change()" id="btn">CLICK ME</button><br />
+<div id="op"></div>
+</body>
+
+<script>
+	function change() {
+		var b=document.querySelector("#one").className="class2";
+	}
+</script>
+</html>
