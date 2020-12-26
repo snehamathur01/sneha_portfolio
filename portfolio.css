@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&family=Sansita:wght@700&display=swap');
 
 html,body{
     width: 100%;
@@ -51,7 +51,7 @@ html,body{
     display: inline;
     text-decoration: none;
     padding: 2rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sansita', sans-serif;
     font-size: x-large;
     color: #87CEFA;
     
@@ -101,7 +101,7 @@ img {
   height: 400px;
   perspective: 1000px; /*Remove this if you don't want the 3D effect */
   padding: 30px 0px 80px 30px;
-  font-family: 'Ramabhadra', sans-serif;
+  font-family: 'Sansita', sans-serif;
 }
 
 /* This container is needed to position the front and back side */
@@ -183,7 +183,7 @@ img {
     
     text-decoration: none;
     padding: 2rem 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sansita', sans-serif;
     font-size: x-large;
     color: #87CEFA;
   }
@@ -222,8 +222,8 @@ img {
     
    }
    .list-item-inline{
-    padding-left: 1em; 
-    font-size: 17px;
+    padding-left: 0.5em; 
+    font-size: 15px;
    }
     
   /*links */
@@ -239,7 +239,7 @@ img {
     text-align: center;
     margin: auto;
     border-radius: 2em;
-    font-family: 'Ramabhadra', sans-serif;
+    font-family: 'Sansita', sans-serif;
     font-size:x-large;
     padding: 100px;
     font-size: 20px;
